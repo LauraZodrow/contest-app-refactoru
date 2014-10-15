@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	ul 
+		for video in videos
+			li 
+				h3=video.name
+				p=video.url
+				p=video.title
+				p=video.description

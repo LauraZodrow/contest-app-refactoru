@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h2 The Best of Drunk History
+	form(method="post", action="/videosubmit")
+		input(type="text", name="name", placeholder="Name")
+		input(type="text", name="url", placeholder="URL")
+		input(type="text", name="title", placeholder="Title")
+		input(type="text", name="description", placeholder="Description")
+
